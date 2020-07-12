@@ -1,0 +1,29 @@
+@import "base/base";
+@import "base/animations";
+@import "base/typography";
+@import "base/utilities";
+
+@import "pages/home";
+@import "components/button";
+@import "components/composition";
+@import "components/feature-box";
+@import "components/bg-video";
+@import "components/cards";
+@import "components/story";
+@import "components/form";
+@import "layouts/header";
+@import "layouts/grid";
+@import "layouts/footer";
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+
+@media only screen and (max-width: 70rem) {
+    .heading-primary-main{
+        letter-spacing: 2rem;
+    }
+    .heading-primary-sub{
+        letter-spacing: 1rem;
+    }
+  }
